@@ -96,7 +96,12 @@ OK! End rant. Moving on to the outline plan of TODO's...
 ---
 
 ## TODOs
-> Created a Github Projects Board to track TODO's
+> Created a Github Projects Board to track TODO's  
 https://github.com/DaneTheory/A-Homer-Odyssey/projects/1
+
+## STAGING  
+https://a-homer-odyssey.bdane.now.sh/
+
+
 
 This is going to be fun. Here goes!
