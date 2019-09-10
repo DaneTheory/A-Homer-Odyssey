@@ -1,0 +1,1 @@
+{"name":"@danetheory/homer-dashboard","version":"0.0.1","private":true,"scripts":{"dev":"next","build":"next build","start":"next start"},"dependencies":{"react":"^16.8.6","react-dom":"^16.8.6"},"devDependencies":{"next":"^9.0.2"},"readme":"ERROR: No README data found!","_id":"@danetheory/homer-dashboard@0.0.1"}
