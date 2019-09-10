@@ -96,28 +96,7 @@ OK! End rant. Moving on to the outline plan of TODO's...
 ---
 
 ## TODOs
-[] Create initial repository for Version Control (Github)
-  [] Set "Master" branch as production build
-  [] Set "Staging" branch as staging build (pre-production)
-  [] Setup new project for aformentioned repository on Zeit Now, with hooks into staging and master branches.
-  [] Setup TravisCI to act as build verification between Staging and Master Builds
-  [] Locally, setup working `now dev` for development environment
-      [] Git commits from local are built to Staging. New Staging builds trigger TravisCI to verify build integrity. Expect failures often. Not important until making merge into production where all tests must pass.
-  * Local dev stack:
-      * MonoRepo (composed of following)
-          1. [] Data (Database layer, connected to local MySQL running on laptop)
-          2. [] Services (API layers/Automated service layers)
-              [] Initial service to "seed" database given CSV so long as input is validated against ruleset.
-              [] General Service(s) to provide CRUD operations against existing database (which connection to is pre-verified)
-              [] _Would be nice to have some authorization/authentication built for anything other the reads, just for fun of it_
-              [] _Would also be nice to have front-end UI/UX access these endpoints without the need to run in something like CURL_
-              [] The final service that outputs `valid_stories.csv`
-              [] _For fun: Why not have this output as Human Readable for authenticated User? At the same time, upload an encrypted version of `valid_stories.csv` to say, an S3 bucket, where a key is required to unencrypt the data. Could be done by sending a key to authenticated users email... or SMS code... or Authy like time-limited access code..._
-          3. [] Client (this whole GUI madness I keepm reffering to. Nothing fancy. Maybe Material UI or Grommet. NextJS for sure for Server-Side-Rendering benefits. Leaning towards Redux, but I think MicroStates would be a fun usecase here.)
-  [] Figure out remote MySQL host. Google, be kind to me please.
-  [] Setup gitignore, nowignore, and other basics so I can stop seeing .DS_Store files EVER again.
-  [] Eslint, Prettier, etc. for the basics. Jest for testing, or perhaps Nock... Could be fun to use WallabyJS here. Havent tried that for Serverless yet.
-
-
+> Created a Github Projects Board to track TODO's
+https://github.com/DaneTheory/A-Homer-Odyssey/projects/1
 
 This is going to be fun. Here goes!
