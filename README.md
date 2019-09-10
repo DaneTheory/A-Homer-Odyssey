@@ -99,8 +99,13 @@ OK! End rant. Moving on to the outline plan of TODO's...
 > Created a Github Projects Board to track TODO's  
 https://github.com/DaneTheory/A-Homer-Odyssey/projects/1
 
-## STAGING  
+## STAGING
+> Live Staging Environment
 https://a-homer-odyssey.bdane.now.sh/
+
+## PRODUCTION  
+> Live Production Environment
+https://a-homer-odyssey-git-master.bdane.now.sh
 
 
 
