@@ -1,4 +1,4 @@
-#A Homer Odyssey
+# A Homer Odyssey
 
 ## Homer's Awesome Coding Challenge
 > Solution By: Branden Dane
